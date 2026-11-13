@@ -1,0 +1,242 @@
+LOST IN ORBIT v3 — NASA SOURCES AND DATA
+Created by StellarSpark for NASA Space Apps Challenge 2026
+Independent student project. NOT an official NASA product.
+==============================================================================
+
+HOW TO READ THIS FILE
+  1. Every link the game can open (the "NASA SOURCE" buttons), with why it is used.
+  2. The NASA facts each of the 10 missions is built on.
+  3. Every quiz question and the source it comes from.
+  4. What is game design (not NASA data), and a link-checking note.
+
+1. NASA SOURCE LINKS
+------------------------------------------------------------------------------
+A) Primary sources (required by the challenge brief)
+  * NASA Mars Facts
+    https://science.nasa.gov/mars/facts/
+    Used for: Size, distance (1.5 AU), sol length (24.6 h), seasons, thin CO₂ atmosphere, dust storms, temperatures, no global magnetic field, water ice, moons.
+  * NASA Mars Odyssey – Science
+    https://science.nasa.gov/mission/odyssey/science/
+    Used for: Water ice near the Martian surface (Water Extractor).
+  * NASA Mars Exploration – Science Goals
+    https://science.nasa.gov/planetary-science/programs/mars-exploration/science-goals/
+    Used for: Why NASA explores Mars and how it prepares for future human explorers (radiation, resources).
+  * NASA Perseverance – Science Highlights
+    https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights/
+    Used for: Jezero Crater science, rock sampling and rover exploration.
+  * NASA Space Place – All About Mars
+    https://spaceplace.nasa.gov/all-about-mars/en/
+    Used for: Kid-friendly background reading about Mars.
+  * NASA Mars Science Laboratory – Launch Press Kit
+    https://solarsystem.nasa.gov/docs/MSLLaunch.pdf
+    Used for: How rovers land and operate on the surface; why mission teams count time in sols.
+
+B) Additional NASA pages used in v3
+  * NASA Mars 2020: Perseverance Rover
+    https://science.nasa.gov/mission/mars-2020-perseverance/
+    Used for: Mission overview — the rover that inspires our rover missions.
+  * NASA JPL – MOXIE Completes Mars Mission
+    https://www.jpl.nasa.gov/news/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/
+    Used for: MOXIE made oxygen from Mars’ CO₂: 122 g total, up to 12 g/hour, 98% purity (Oxygen Generator).
+  * NASA – Perseverance Offers Clues to Protect Crews From Mars Dust (Oct 26, 2026)
+    https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+    Used for: Fine and ultrafine Mars dust, static electricity, suitports and dual-chamber airlocks (airlock + indoor/outdoor suit rules).
+  * NASA – Simulated Mars Crew Marks One Year Inside Habitat (Oct 19, 2026)
+    https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+    Used for: CHAPEA crew roles, growing crops, limited resources, communication delays up to 45 minutes each way, suited spacewalks.
+  * NASA CHAPEA Mission 2
+    https://www.nasa.gov/humans-in-space/chapea/chapea-mission-2/
+    Used for: The crew-health analog that inspires our four playable crew roles.
+  * NASA Human Research Program
+    https://www.nasa.gov/hrp/
+    Used for: How NASA keeps astronauts healthy and mission-ready.
+  * NASA – Moons of Mars (Phobos & Deimos)
+    https://science.nasa.gov/mars/moons/
+    Used for: The two small moons that appear in our night sky.
+  * NASA Mars Exploration Program
+    https://science.nasa.gov/planetary-science/programs/mars-exploration/
+    Used for: Overview of Mars missions.
+  * NASA Mars Science Laboratory: Curiosity Rover
+    https://science.nasa.gov/mission/msl-curiosity/
+    Used for: Another rover that explores the surface.
+  * NASA Eyes on the Solar System – Mars
+    https://eyes.nasa.gov/apps/solar-system/#/mars
+    Used for: Interactive 3D view of Mars.
+
+2. MISSIONS AND THE NASA DATA BEHIND THEM
+------------------------------------------------------------------------------
+MISSION 1: TOUCHDOWN
+  Story: You made it down! The outpost is half-powered. Get inside the Habitat, call Mission Control, then find the key systems.
+  NASA data used:
+    - A sol (Mars day) is about 24.6 hours.
+    - Mars is about 1.5 AU from the Sun — sunlight takes ~13 minutes to arrive.
+    - NASA suggests airlocks and suitports to keep Mars dust out of living quarters.
+  Sources:
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+    - NASA – Perseverance Offers Clues to Protect Crews From Mars Dust (Oct 26, 2026): https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+    - NASA – Simulated Mars Crew Marks One Year Inside Habitat (Oct 19, 2026): https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+
+MISSION 2: POWER PROBLEM
+  Story: Mission Control sees the solar array's output dropping. Go investigate and choose a fix.
+  NASA data used:
+    - Dust blocks sunlight, so solar panels make less power.
+    - Mars is 1.5 AU from the Sun, so sunlight is weaker than on Earth.
+  Sources:
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+
+MISSION 3: WATER SHORTAGE
+  Story: Water production is falling. Scan for ice with the rover, fix the extractor, then plan the water supply.
+  NASA data used:
+    - Water on Mars today is ice just under the surface near the poles, plus salty seasonal flows.
+    - The air is too thin for liquid water to last long on the surface.
+  Sources:
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+    - NASA Mars Odyssey – Science: https://science.nasa.gov/mission/odyssey/science/
+
+MISSION 4: OXYGEN EMERGENCY
+  Story: The Oxygen Generator is unstable! Restore it before the air runs low.
+  NASA data used:
+    - MOXIE made oxygen from Mars' CO₂ in 16 runs.
+    - It produced 122 g in total — up to 12 g/hour at 98%+ purity.
+    - “Living off the land” is called in-situ resource utilization (ISRU).
+  Sources:
+    - NASA JPL – MOXIE Completes Mars Mission: https://www.jpl.nasa.gov/news/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+
+MISSION 5: DUST STORM
+  Story: Mission Control has detected rising dust activity near the colony. A big storm is on its way!
+  NASA data used:
+    - Dust storms can cover much of Mars; the dust can take months to settle.
+    - Fine dust (under 2.5 micrometers) can get deep into lungs.
+    - Suitports and dual-chamber airlocks could keep dust out of habitats.
+  Sources:
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+    - NASA – Perseverance Offers Clues to Protect Crews From Mars Dust (Oct 26, 2026): https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+
+MISSION 6: RADIATION ALERT
+  Story: Radiation sensors are warning of higher exposure. How will you protect the crew?
+  NASA data used:
+    - Mars has no global magnetic field today.
+    - Its thin atmosphere offers little protection.
+    - NASA's Human Research Program studies how to keep crews healthy.
+  Sources:
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+    - NASA Mars Exploration – Science Goals: https://science.nasa.gov/planetary-science/programs/mars-exploration/science-goals/
+    - NASA Human Research Program: https://www.nasa.gov/hrp/
+
+MISSION 7: FOOD CRISIS
+  Story: The greenhouse is producing less food. Power and food are tied together — balance them, then share a meal!
+  NASA data used:
+    - NASA's CHAPEA crew grew crops and managed limited resources for 378 days.
+    - Mars gets less sunlight than Earth, so plants need lights and warmth.
+  Sources:
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+    - NASA – Simulated Mars Crew Marks One Year Inside Habitat (Oct 19, 2026): https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+
+MISSION 8: ROVER SURVEY
+  Story: Mission Control wants a survey of the crater. Grab the rover checklist, drive out to the crater, and scan the rocks.
+  NASA data used:
+    - Perseverance explores Jezero Crater.
+    - Its panorama shows Neretva Vallis, a long-dried river channel through the crater rim.
+    - Rovers help prepare the way for human explorers.
+  Sources:
+    - NASA – Perseverance Offers Clues to Protect Crews From Mars Dust (Oct 26, 2026): https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+    - NASA Mars 2020: Perseverance Rover: https://science.nasa.gov/mission/mars-2020-perseverance/
+    - NASA Mars Science Laboratory: Curiosity Rover: https://science.nasa.gov/mission/msl-curiosity/
+
+MISSION 9: COLD NIGHT
+  Story: The sun is setting and a bitterly cold night is coming. Keep the greenhouse warm, check the antenna, and get some sleep.
+  NASA data used:
+    - Mars temperatures range from about 20 °C down to about −153 °C.
+    - The thin atmosphere lets heat escape easily.
+    - Phobos and Deimos — Mars' two small moons — rise in the night sky.
+    - CHAPEA communication delays reach 45 minutes each way.
+  Sources:
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+    - NASA – Moons of Mars (Phobos & Deimos): https://science.nasa.gov/mars/moons/
+    - NASA – Simulated Mars Crew Marks One Year Inside Habitat (Oct 19, 2026): https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+
+MISSION 10: FINAL OUTPOST CHALLENGE
+  Story: Everything is under stress at once! Fix each system, then run a 3-sol survival test at the Habitat Console.
+  NASA data used:
+    - Power, water, oxygen, food, radiation safety and crew health all depend on each other.
+    - Real missions have limited resources — NASA's CHAPEA crew managed them for 378 days.
+  Sources:
+    - NASA Mars Facts: https://science.nasa.gov/mars/facts/
+    - NASA JPL – MOXIE Completes Mars Mission: https://www.jpl.nasa.gov/news/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/
+    - NASA – Perseverance Offers Clues to Protect Crews From Mars Dust (Oct 26, 2026): https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+    - NASA – Simulated Mars Crew Marks One Year Inside Habitat (Oct 19, 2026): https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+    - NASA Mars Exploration – Science Goals: https://science.nasa.gov/planetary-science/programs/mars-exploration/science-goals/
+
+3. QUIZ QUESTIONS AND THEIR SOURCES
+------------------------------------------------------------------------------
+[q_sol] About how long is one day on Mars (a "sol")?
+   Answer: About 24.6 hours
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_distance] How far is Mars from the Sun compared with Earth?
+   Answer: About 1.5 times farther
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_solar_dust] Dust is covering our solar arrays. What happens to our power?
+   Answer: It decreases, because dust blocks sunlight
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_ice] Where is water found on Mars today?
+   Answer: As ice just under the surface near the poles (and some salty seasonal flows)
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_tf_lakes] True or false: the Martian air is thick enough for liquid water to stay on the surface for long.
+   Answer: False
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_oxy] Why is oxygen production important on Mars?
+   Answer: Humans cannot breathe Mars' atmosphere.
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_moxie] What did NASA's MOXIE experiment on the Perseverance rover do?
+   Answer: Made oxygen from Mars' carbon dioxide
+   Source: NASA JPL – MOXIE Completes Mars Mission — https://www.jpl.nasa.gov/news/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/
+[q_moxie2] How much oxygen did MOXIE make in total?
+   Answer: 122 grams — about what a small dog breathes in 10 hours
+   Source: NASA JPL – MOXIE Completes Mars Mission — https://www.jpl.nasa.gov/news/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/
+[q_storm] Which statement about Martian dust storms is true?
+   Answer: Some cover much of the planet, and the dust can take months to settle
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_best_storm] A big dust storm is coming. Which plan is BEST for keeping the lights on?
+   Answer: Save power: use backup batteries and turn off extra systems
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_dust_fine] Perseverance measured Mars dust smaller than 2.5 micrometers. Why does that matter for crews?
+   Answer: Tiny dust can get deep into lungs, so habitats must keep dust out
+   Source: NASA – Perseverance Offers Clues to Protect Crews From Mars Dust (Oct 26, 2026) — https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+[q_airlock] Which design ideas does NASA mention to reduce dust getting into living quarters?
+   Answer: Suitports and dual-chamber airlocks
+   Source: NASA – Perseverance Offers Clues to Protect Crews From Mars Dust (Oct 26, 2026) — https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+[q_magnet] Mars has no global magnetic field today. What does that mean for explorers?
+   Answer: Radiation protection matters — shelters and shielding help
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_tf_shield] True or false: putting lots of material (like soil, rock or water) around a habitat can help shield astronauts from radiation.
+   Answer: True
+   Source: NASA Mars Exploration – Science Goals — https://science.nasa.gov/planetary-science/programs/mars-exploration/science-goals/
+[q_sun] Why might a Mars greenhouse need extra lights and heating?
+   Answer: Mars is farther from the Sun, so sunlight is weaker
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_food_crew] During NASA's year-long CHAPEA Mars simulation, what did the crew do?
+   Answer: Grew crops and managed limited resources
+   Source: NASA – Simulated Mars Crew Marks One Year Inside Habitat (Oct 19, 2026) — https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+[q_jezero] Perseverance explores Jezero Crater. What is Neretva Vallis, seen in its panorama?
+   Answer: A long-dried river channel cutting through the crater rim
+   Source: NASA – Perseverance Offers Clues to Protect Crews From Mars Dust (Oct 26, 2026) — https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/
+[q_comm_delay] In NASA's CHAPEA Mars analog, messages to Earth were delayed by up to how long each way?
+   Answer: Up to 45 minutes
+   Source: NASA – Simulated Mars Crew Marks One Year Inside Habitat (Oct 19, 2026) — https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+[q_cold] Why can Mars get extremely cold at night?
+   Answer: Its thin atmosphere lets heat escape easily
+   Source: NASA Mars Facts — https://science.nasa.gov/mars/facts/
+[q_moons] What are the names of Mars' two small moons?
+   Answer: Phobos and Deimos
+   Source: NASA – Moons of Mars (Phobos & Deimos) — https://science.nasa.gov/mars/moons/
+
+4. NOTES
+------------------------------------------------------------------------------
+* Facts opened and read directly while building v3: NASA Mars Facts; "NASA's Perseverance Offers Clues to Protect Crews From Mars Dust";
+  "NASA's Oxygen-Generating Experiment MOXIE Completes Mars Mission" (JPL); "NASA's Simulated Mars Crew Marks One Year Inside Habitat".
+* The other links appeared as live links on those NASA pages (or were supplied in the challenge brief). Please click every link once before you submit.
+* Game-design content (NOT NASA data): the story of the lost relay satellite and landing, the outpost buildings and rooms, resource numbers and trade-off costs,
+  the four crew perks, the day/night length (one sol = 12 real minutes), the outside temperature shown on the clock (a game value inside the real -153 C to +20 C range), and all characters.
+* Crew roles (commander, medical officer, science officer, flight engineer) are inspired by NASA's CHAPEA Mars-habitat simulation. The crew names are fictional.
+* Game notes in the app are labelled "GAME NOTE" when a card has no NASA source.

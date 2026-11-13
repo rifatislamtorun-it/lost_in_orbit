@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lost In Orbit — a Mars outpost survival game by StellarSpark</title>
+<meta name="description" content="Lost In Orbit: run, explore, decide and survive on Mars. A 3D educational game for ages 10–13 built on NASA science. Created by StellarSpark for NASA Space Apps Challenge 2026." />
+<meta name="theme-color" content="#070d26" />
+<meta property="og:title" content="Lost In Orbit — StellarSpark" />
+<meta property="og:description" content="Survive on Mars: drive rovers, enter habitats, fix machines and learn real NASA science." />
+<link rel="icon" href="./assets/ui/stellarspark_logo.jpeg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+<canvas id="c" aria-label="Lost In Orbit game view"></canvas>
+<div id="loading" role="status" aria-live="polite">
+  <canvas id="load-stars"></canvas>
+  <div class="load-wrap">
+    <div class="load-orbit"><div class="mars"></div><div class="ring"></div><img src="./assets/ui/stellarspark_logo.jpeg" alt="StellarSpark logo" class="load-logo" /></div>
+    <h1 class="load-title">LOST IN ORBIT</h1>
+    <h2>LOADING MARS OUTPOST…</h2>
+    <div class="bar big"><i id="load-bar"></i></div>
+    <div class="load-row"><span id="load-status">Starting engines…</span><span id="load-pct">0%</span></div>
+    <ul id="load-steps"><li data-s="Character">👩‍🚀 Crew</li><li data-s="Colony">🏗️ Colony</li><li data-s="Systems">⚙️ Systems</li><li data-s="Missions">🎯 Missions</li><li data-s="NASA Science">🛰️ NASA Science</li></ul>
+    <p class="load-tip" id="load-tip"></p>
+    <noscript><p class="load-err">This game needs JavaScript. Please enable it and reload.</p></noscript>
+    <p class="load-err" id="load-err" hidden>Your browser could not start 3D graphics (WebGL). Try Chrome, Edge or Firefox on a desktop or laptop, and make sure hardware acceleration is turned on.</p>
+  </div>
+</div>
+<div id="vignette"></div>
+<div id="ui"></div>
+<script>
+(function () {
+  // WebGL check
+  try { var t = document.createElement('canvas'); if (!(t.getContext('webgl2') || t.getContext('webgl'))) throw 0; } catch (e) { document.getElementById('load-err').hidden = false; }
+  // animated star field
+  var c = document.getElementById('load-stars'), x = c.getContext('2d'), S = [], W, H;
+  function size() { W = c.width = innerWidth; H = c.height = innerHeight; S = []; for (var i = 0; i < 160; i++) S.push({ x: Math.random() * W, y: Math.random() * H, r: Math.random() * 1.6 + 0.3, v: Math.random() * 0.25 + 0.05, p: Math.random() * 6 }); }
+  size(); addEventListener('resize', size);
+  (function f(t) { if (document.getElementById('loading').hidden) return; x.clearRect(0, 0, W, H); for (var i = 0; i < S.length; i++) { var s = S[i]; s.x -= s.v; if (s.x < 0) s.x = W; x.globalAlpha = 0.5 + 0.5 * Math.sin(t / 600 + s.p); x.fillStyle = '#fff'; x.beginPath(); x.arc(s.x, s.y, s.r, 0, 7); x.fill(); } requestAnimationFrame(f); })(0);
+  // NASA fun-fact tips (from NASA Mars Facts)
+  var tips = ['Did you know? A day on Mars (a “sol”) lasts about 24.6 hours.', 'Did you know? Mars is about 1.5 times farther from the Sun than Earth.', 'Did you know? Mars has two small moons called Phobos and Deimos.', 'Did you know? Mars temperatures range from about 20 °C down to about −153 °C.', 'Did you know? NASA’s MOXIE made oxygen from Mars’ carbon-dioxide air.', 'Did you know? Mars dust storms can cover much of the planet.', 'Did you know? Mars has no global magnetic field today.'], i = 0, el = document.getElementById('load-tip');
+  function tip() { el.style.opacity = 0; setTimeout(function () { el.textContent = tips[i++ % tips.length]; el.style.opacity = 1; }, 250); } tip(); setInterval(tip, 3200);
+})();
+</script>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
